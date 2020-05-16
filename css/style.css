@@ -1,6 +1,61 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main {
+  height: 320px;
+  width: 624px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  display: flex;
+  padding: 32px;
+}
+.person__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.person__links {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.person__links--item {
+  color: #E20613;
+  text-decoration: none;
+}
+.person__name {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0px;
+}
+.person__photo {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.person__title {
+  color: #545454;
+  font-size: 18px;
+  margin-top: 0px;
+}
+div {
+  margin-left: 32px;
+}
+.special {
+  color: #ED6D05;
+}
